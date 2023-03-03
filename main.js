@@ -45,20 +45,20 @@ prompt-возвращение
 
 
 //1задание
-/*
+
 let Vm, Vkm, vibor;
 vibor=prompt("Если хотите перевести из км/ч в м/с-введите 0, если из м/с в км/ч-1");
 if (vibor==0){
     Vkm = prompt("Введите число в километрах в час")
     Vm = Vkm*1000/3600;
-    console.log(Vm + 'м/с);
+    console.log(`Vm ${м/с}`);
 }
 else if(vibor==1){
     Vm = prompt("Введите число в метрах в секунду")
     Vkm= Vm*3.6;
-    console.log(Vkm+ 'км/ч');
+    console.log(`Vkm ${км/ч}`);
 }
-*/
+
 
 //2 задание
 // let a,b,c,S,P,sum,pl;
@@ -136,16 +136,16 @@ else if(vibor==1){
 
 
 //6задание
-// let n, x, y
-// n=prompt("Введите любое n");
-// x=prompt("Введите любое x");
-// y=prompt("Введите любое y");
-// if(n%x!=0 && n%y!=0){
-//     console.log("n= " + n + "," + "x= " + x + "," + "y= " + y + "," + " => false");
-// }
-// else{
-//     console.log("n= " + n + "," + "x= " + x + "," + "y= " + y + "," + " => true");
-// }
+let n, x, y
+n=prompt("Введите любое n");
+x=prompt("Введите любое x");
+y=prompt("Введите любое y");
+if(n%x!=0 && n%y!=0){
+    console.log(`n= ${n} , "x= "  ${x} ,  "y= " ${y}  , => false`);
+}
+else{
+    console.log(`n= ${n} , "x= "  ${x} ,  "y= " ${y}  , => true`);
+}
 
 
 //7задание
