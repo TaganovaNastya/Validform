@@ -57,17 +57,17 @@
 
     //5 задание
     
-    function getRandomArrayElement(array,n){
-        let news = [];
-        for (let i=0; i<n; i++){
-        let k = array[Math.floor(Math.random()*array.length)];
-        news.push(k);
-        }
-        return news;
-     }
-     let massiv = [11, 22, 33, 44, 55, 66];
-     let m = 3;
-     console.log (getRandomArrayElement(massiv, m));
+    // function getRandomArrayElement(array,n){
+    //     let news = [];
+    //     for (let i=0; i<n; i++){
+    //     let k = array[Math.floor(randomNumber(0, n))];
+    //     news.push(k);
+    //     }
+    //     return news;
+    //  }
+    //  let massiv = [11, 22, 33, 44, 55, 66];
+    //  let m = 4;
+    //  console.log (getRandomArrayElement(massiv, m));
 
     
         
