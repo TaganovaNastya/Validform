@@ -1,22 +1,24 @@
 //1 задание
 // let Vm, Vkm;
-// function convertSpeed(V, metod){
-// vibor=prompt("Если хотите перевести из км/ч в м/с-введите 0, если из м/с в км/ч-1");
-// if (vibor==0){
-//     Vkm = prompt("Введите число в километрах в час")
-//     V = Vkm*1000/3600;
-//     metod=" m/c"
-//     return V + metod; 
+// function convertSpeed(V, metod)
+// {   
+//     if (metod=='toMS'){
+//     Vmc = V*1000/3600;
+//     metod=" m/c";
+//     return Vmc + metod; 
+// } else if (metod=='toKMH'){
+//     Vkm= V*3.6;
+//     metod=" km/h";
+//     return Vkm + metod; 
+// }
     
 // }
-// else if(vibor==1){
-//     Vm = prompt("Введите число в метрах в секунду")
-//     V= Vm*3.6;
-//     metod=" km/h"
-//     return V + metod;
-// }
-// }
-// console.log(convertSpeed());
+//  console.log(convertSpeed(20, 'toMS'));
+//  console.log(convertSpeed(70, 'toKMH'));
+
+
+
+
 
 //2 задание
 // function absValue(a){
@@ -37,8 +39,8 @@
     //     last_name: "Таганова",
     //     first_name: "Анастасия"
     //     }
-    //     console.log('Свойста объектов: '+ Object.keys(student));
-    //     console.log('Студент: ' + ' '+ student.group + ' ' + student.last_name + ' ' + student.first_name)
+    //     console.log('Свойста объектов: '+ Object.keys(student).join(", "));
+    //     console.log(`Студент: ${student.group} ${student.last_name} ${student.first_name}`)
 
 
     //4 задание
@@ -55,12 +57,13 @@
     // }
     // console.log(randomNumber(6, 20))
 
-    //5 задание
-    
+    // // //5 задание
+    // let k
     // function getRandomArrayElement(array,n){
     //     let news = [];
     //     for (let i=0; i<n; i++){
-    //     let k = array[Math.floor(randomNumber(0, n))];
+    //     k = array[Math.floor(randomNumber (0, array.lenght-1))];
+
     //     news.push(k);
     //     }
     //     return news;
