@@ -44,33 +44,33 @@
 
 
     //4 задание
-    // function randomNumber(min, max){
-    //     let r= (max-min)+1;
-    //     let p= (Math.random()* r + min);
-    //     if ((p-Math.abs(p))<=0.5){
-    //         return Math.floor(p);
-    //     }
-    //     else {
-    //         return Math.ceil(p);
-    //     }
+    function randomNumber(min, max){
+        let r= (max-min)+1;
+        let p= (Math.random()* r + min);
+        if ((p-Math.abs(p))<=0.5){
+            return Math.floor(p);
+        }
+        else {
+            return Math.ceil(p);
+        }
         
-    // }
-    // console.log(randomNumber(6, 20))
+    }
+    console.log(randomNumber(6, 20))
 
     // // //5 задание
-    // let k
-    // function getRandomArrayElement(array,n){
-    //     let news = [];
-    //     for (let i=0; i<n; i++){
-    //     k = array[Math.floor(randomNumber (0, array.lenght-1))];
+    let k
+    function getRandomArrayElement(array,n){
+        let news = [];
+        for (let i=0; i<n; i++){
+        k = array[Math.floor(randomNumber (0, array.length-1))];
 
-    //     news.push(k);
-    //     }
-    //     return news;
-    //  }
-    //  let massiv = [11, 22, 33, 44, 55, 66];
-    //  let m = 4;
-    //  console.log (getRandomArrayElement(massiv, m));
+        news.push(k);
+        }
+        return news;
+     }
+     let massiv = [11, 22, 33, 44, 55, 66];
+     let m = 4;
+     console.log (getRandomArrayElement(massiv, m));
 
     
         
