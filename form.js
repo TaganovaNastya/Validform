@@ -17,7 +17,7 @@ form.addEventListener("submit", (event) => {
       const emaildata= formData.get("email");
       const passdata= formData.get("password");
       console.table({emaildata, passdata});
-      
+      modal.style.display = "none"
       event.preventDefault();
       
   });
@@ -38,7 +38,7 @@ form.addEventListener("submit", (event) => {
     ErrorDisplay.innerText = '';
     inputControl.classList.add('success');
     inputControl.classList.remove('error');
-    modal.style.display = "none"
+    
   }
 
 
