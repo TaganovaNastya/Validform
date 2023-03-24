@@ -4,10 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="vid.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Form</title>
+
 </head>
 <body>
-     <script src="2lr.js"></script>
-    <h1>Таганова Анастасия-Лабороторная рaбота №9</h1>
+    <header>
+        <h1>Для прохождения далее необходимо автороизоваться</h1>
+        <button id="reg">Регистрация</button>  
+    </header>
+    <div id="Modal" class="mymodal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="form">
+                    <form action="#" id="form" class="form_body">
+                        <p>Заполните форму</p>
+                        <div class="input-control">
+                        <label for="formEmail">E-mail:</label>
+                        <input id="formEmail" type="text" name="email" required>
+                        <div class="error"></div>
+                    </div>
+                        
+                            <div class="input-control">
+                            <label for="password">Пароль:</label>
+                            <input  type="password" id="password" name="password" required minlength="6" class="password">
+                            <div class="error"></div>
+                          </div></div>
+                          <div class="saves">
+                            <button type="submit">Сохранить</button>
+                            <button id="btn_password" type="button">Показать пароль</button>
+                        </div>
+                    </form>
+
+                
+            </div>
+
+        </div>
+        <script src="form.js"></script>
 </body>
 </html>
